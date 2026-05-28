@@ -1,7 +1,4 @@
-const {
-    comparePassword,
-    hashPassword,
-} = require("../../../s85/activity/utils/password");
+const { comparePassword, hashPassword } = require("../utils/password");
 const { User } = require("../models/User");
 const { generateToken } = require("../utils/jwt");
 
